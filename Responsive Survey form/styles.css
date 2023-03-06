@@ -1,0 +1,18 @@
+.bigbox{
+    display: flex;
+    /* justify-content: space-between; */
+    column-gap: 20px;
+}
+.box{
+    border: 1px solid red;
+    height: 40px;
+    width: 100px;
+}
+@media (max-width:500px){
+    .bigbox{
+        flex-direction: column;
+        /* justify-content: space-between; */
+        row-gap:20px
+    }
+}
+/* grid system */
